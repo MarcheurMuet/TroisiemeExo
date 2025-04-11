@@ -1,0 +1,32 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "name": "Conker Bad Fur Day",
+      "difficulty": "Facile",
+      "statut": "true",
+      "image": "/public/image/conker-liste1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Dark Souls",
+      "difficulty": "Difficile",
+      "statut": "true",
+      "image": "/public/image/ds-hd_game-thumbnail.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Kahzan The First Berserker",
+      "difficulty": "Hardcore",
+      "statut": "false",
+      "image": "/public/image/Berserk.jpg"
+    },
+    {
+      "id": "d8df",
+      "name": "Klonoa",
+      "difficulty": "Difficile",
+      "statut": "true",
+      "image": "/public/image/Klonoa.jpg"
+    }
+  ]
+}
