@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Game from '../components/Game';
 import AddGameForm from '../components/AddGameForm';
+import './visuel/GamePage.css';
 
 import axios from 'axios';
 
@@ -57,18 +58,17 @@ const GamePage = () => {
             <h1>Jeux</h1>
             <AddGameForm onAddGame={handleAddGame} />
             <div className="game-list">
-                {games.map((game) => 
-                  {return  <Game
+                {games.map((game) => (
+                    <Game
                         key={game.id}
                         game={game}
                         onToggle={() => handleToggleGame(game.id)}
                         onDelete={() => handleDeleteGame(game.id)}
-                        
-                    />}
-                )}
+                    />
+                ))}
             </div>
         </div>
-        );
+    );
 };
 
 export default GamePage;

@@ -18,15 +18,15 @@
       "id": 3,
       "name": "Kahzan The First Berserker",
       "difficulty": "Hardcore",
-      "statut": "false",
+      "statut": "",
       "image": "/public/image/Berserk.jpg"
     },
     {
-      "id": "d8df",
+      "id": "fc1f",
       "name": "Klonoa",
-      "difficulty": "Difficile",
+      "difficulty": "Facile",
       "statut": "true",
-      "image": "/public/image/Klonoa.jpg"
+      "image": "/public/image/klonoa.jpg"
     }
   ]
 }

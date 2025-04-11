@@ -4,7 +4,7 @@ const handleAddGame = (name, difficulty, statut, image) => {
         name,
         difficulty,
         statut,
-        image: URL.createObjectURL(image), // Utilise l'URL de l'image pour l'affichage
+        image: URL.createObjectURL(image), 
     };
     setGames((prevGames) => [...prevGames, newGame]);
 };

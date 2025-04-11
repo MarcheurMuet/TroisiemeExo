@@ -20,7 +20,7 @@ const Favorites = () => {
     <div className="favorites-page">
       <h1 className="title">Jeux Favoris</h1>
       {favoriteGames.length > 0 ? (
-        <ul className="favorites-list">
+        <ul className="game-list">
           {favoriteGames.map((game) => (
             <li key={game.id} className="favorite-item">
               <img src={game.image} alt={game.name} className="game-image" />

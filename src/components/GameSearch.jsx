@@ -40,7 +40,7 @@ function GameSearch() {
               <div className="game-info">
                 <h2>{game.name}</h2>
                 <p>{game.difficulty}</p>
-                {game.statut ? <span className="fav">⭐ Favori</span> : ""}
+                {game.statut ? <span className="true">⭐</span> : ""}
               </div>
             </li>
           ))
